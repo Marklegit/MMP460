@@ -1,0 +1,146 @@
+body{
+	min-width: 1660px;
+	max-width: 1200px;
+}
+h1{
+	color: white;
+	background-color: rgb(37, 90, 123);
+	font-family: helvetica-light;
+}
+.Navigate{
+	text-align: center;
+	width: 1200px;
+	margin: auto;
+	background-color: whitesmoke;
+}
+.Navigate li{
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 40px;
+}
+.Navigate li a{
+	text-decoration: none;
+	font-family: monospace;
+	font-size: 24px;
+	color: black;
+}
+.Navigate li a:hover{
+	color: goldenrod;
+	border-bottom: 1px black solid;
+}
+.active{
+	border-bottom: 1px green solid;
+}
+.section_1{
+	background-color: rgb(118, 159, 175);
+	margin-top: 20px;
+}
+.Ichigo-final{
+	display: block;
+	margin: auto;
+}
+.titlelink{
+	text-align: center;
+	font-family: monospace;
+	font-size: 40px;
+	color: cornflowerblue;
+}
+.about_me{
+	height: 500px;
+}
+.about_me p{
+	text-align: center;
+	width: 1200px;
+	margin: auto;
+	font-size: 26px;
+}
+h2{
+	text-align: center;
+	font-family: monospace;
+	font-size: 30px;
+}
+.project{
+	height: 2560px;
+	background-color: rgb(118, 159, 175);
+}
+h3{
+	color: greenyellow;
+	text-align: center;
+	font-family: monospace;
+	font-size: 30px;
+	background-color: #212730;
+}
+h3 b{
+	color: orange;
+}
+.eop{
+	display: block;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.concept{
+	color: white;
+	font-family:monospace;
+	font-size: 22px;
+	text-align: center;
+	width: 1200px;
+	margin: auto;
+	padding-bottom: 10px;
+}
+.concept i{
+	color: greenyellow;
+}
+.concept b{
+	color: orange;
+}
+.raw-images{
+	width: 1400px;
+	margin: auto;
+}
+.raw-images img{
+	margin-right: 20px;
+	margin-left: 40px;
+}
+.credit-game{
+	margin: auto;
+	background-color: #212730;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+	font-family: monospace;
+	font-size: 22px;
+	text-align: center;
+}
+.credit-game strong{
+	color: orange;
+}
+.credit-game b{
+	color: gold
+}
+.final-design{
+	width: 1400px;
+	margin: auto
+}
+.final-design img{
+	margin-right: 160px;
+	margin-left: 120px;
+}
+.logo-eop{
+	width: 1400px;
+	margin: auto;
+}
+.logo-eop img{
+	margin-right: 160px;
+	margin-left: 120px;
+}
+
+ul li .insta{
+	color: orchid;
+}
+ul li .github{
+	color: limegreen;
+}
+ul li .sketches{
+	color: coral;
+}

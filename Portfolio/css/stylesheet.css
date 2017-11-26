@@ -1,0 +1,183 @@
+body{
+	min-width: 1660px;
+	max-width: 1200px;
+}
+h1{
+	color: white;
+	background-color: rgb(37, 90, 123);
+	font-family: helvetica-light;
+}
+.Navigate{
+	text-align: center;
+	width: 1200px;
+	margin: auto;
+	background-color: whitesmoke;
+}
+.Navigate li{
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 40px;
+}
+.Navigate li a{
+	text-decoration: none;
+	font-family: monospace;
+	font-size: 24px;
+	color: black;
+}
+.Navigate li a:hover{
+	color: goldenrod;
+	border-bottom: 1px black solid;
+}
+.active{
+	border-bottom: 1px green solid;
+}
+.section_1{
+	/*background-color: rgb(37, 90, 123);*/
+	background-color: rgb(118, 159, 175);
+	margin-top: 20px;
+}
+.Ichigo-final{
+	display: block;
+	margin: auto;
+}
+.mmp{
+	color: cornflowerblue;
+	text-align: center;
+	font-family: monospace;
+	font-size: 40px;
+}
+.about_me{
+	height: 400px;
+	background-color: whitesmoke;
+}
+.about_me p{
+	text-align: center;
+	width: 1200px;
+	margin: auto;
+	font-size: 36px;
+}
+.about_me b{
+	color: cadetblue;
+}
+h2{
+	text-align: center;
+	font-family: monospace;
+	font-size: 30px;
+}
+.portfolio{
+	height: 600px;
+	/*background-color: rgb(37, 120, 123);*/
+	background-color: rgb(118, 159, 175);
+}
+.portfolio li{
+	text-align: center;
+	list-style: none;
+}
+.portfolio a{ 
+	color: white;
+	font-size: 40px;
+	text-decoration: none;
+}
+.portfolio a:hover{
+	color: goldenrod;
+	
+}
+.portfolio img{
+	display: block;
+	margin: auto;
+	background-color: white;
+	border-radius: 20px;
+}
+h4{
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	font-family: monospace;
+}
+ul li .insta{
+	color: orchid;
+}
+ul li .github{
+	color: limegreen;
+}
+ul li .sketches{
+	color: coral;
+}
+
+footer{
+	background-color: rgb(37, 90, 123);
+	color: white;
+}
+.copyright{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+.contact{
+	text-align: center;
+	color: black;
+	font-family: sans-serif;
+	font-size: 30px;
+	background-color: whitesmoke;
+}
+.email{
+	color: lightgreen;
+	font-family: sans-serif;
+	font-size: 30px;
+	text-align: center;
+}
+.footer-center{
+	height: 700px;
+}
+.left-footer{
+	width: 800px;
+	float: left;
+	border-right: 2px white solid;
+}
+.left-footer li{
+	margin: auto;
+	width: 200px;
+	display: inline-block;
+	background-color: cornsilk;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	border-radius: 10px;
+}
+.left-footer li a:hover{
+	color: orchid;
+}
+.left-footer img{
+	display: block;
+	margin: auto;
+	border-radius: 10px;
+}
+.left-footer p{
+	text-align: center;
+	font-family: monospace;
+	font-size: 30px;
+}
+.right-footer{
+	width: 430px;
+	float: left;
+	padding-left: 10px;
+}
+.right-footer img{
+	margin-bottom: 0px;	
+}
+.last-right{
+	width: 300px;
+	float: right;
+	margin-right: 80px;
+	height: 610px;
+	overflow: hidden;
+}
+footer li{
+	text-align: center;
+	list-style: none;
+}
+footer li a{
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif;
+	font-size: 20px;
+}
