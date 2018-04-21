@@ -1,0 +1,182 @@
+body{
+	background-color: whitesmoke;
+	margin: -16px;
+}
+.Section-1{
+	height: 2100px;
+	width: 1000px;
+	margin: auto;
+	background-color: white;
+	border-radius: 12px;
+}
+#Home_button{
+	font-family: fantasy;
+	font-size: 30px;
+	text-decoration: none;
+	color: #3bc6ab;
+}
+#Home_button:hover{
+	color: black;
+}
+#Active{
+	color: gray;
+}
+#Active:hover{
+	border-bottom: none;
+	cursor: not-allowed;
+}
+.Navbar-1{
+	background-color: white;
+	text-align: center;
+}
+.Navbar-1 li{
+	display: inline-block;
+	margin: 10px;
+	padding: 10px;
+	border-left: 2px black solid;
+}
+.Navbar-1 li a{
+	text-decoration: none;
+	font-family: cursive;
+	font-size: 26px; 
+	color: black;
+}
+.Navbar-1 li a:hover{
+	color: red;
+	border-bottom: 2px solid blue;
+}
+h1{
+	text-align: center;
+	color: black;
+	font-family: helvetica-light;
+	position: relative;
+	animation-name: move;
+    animation-duration: 3s;
+}
+h2{
+	color: green;
+	padding-left: 10px;
+	border-left: 4px solid red;
+	font-family: helvetica;
+	font-size: 20px;
+}
+@keyframes move {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+h3{
+	margin-left: 10px;
+}
+footer{
+	height: 100px;
+	width: 1000px;
+	background-color: #666666;
+	margin: auto;
+	border-radius: 12px;
+}
+footer p{
+	text-align: center;
+	font-size: 20px;
+	font-family: helvetica;
+	line-height: 100px;
+	padding: 0;
+	margin: 0;
+	color: white;
+}
+.resume{
+	text-align: center;
+}
+.job_objective p{
+	text-align: center;
+}
+.education p{
+	text-align: center;
+}
+.coursework p{
+	text-align: center;
+}
+.computer-based_skills p{
+	text-align: center;
+}
+.freelance p{
+	text-align: center;
+}
+.language_skills p{
+	text-align: center;
+}
+.other p{
+	text-align: center;
+}
+.relevant_skills p{
+	text-align: center;
+}
+#Mark-section{
+	background-color: #333333;
+}
+#Mark-about{
+	color: white;
+	font-size: 20px;
+}
+#about-title{
+	color: yellow;
+}
+.clearfix_1{
+	overflow: auto;
+	padding: 20px;
+	background-color: white;
+}
+.clearfix_1 .resume_name, .email_mark{
+	text-align: center;
+}
+#Resume{
+	font-size: 40px;
+	color: gold;
+	background-color: gray;
+	border: none;
+	margin: 0;
+}
+.resume_name{
+	font-size: 50px;
+	font-family: helvetica;
+	margin: 0;
+}
+.email_mark{
+	font-family: helvetica;
+}
+strong{
+	color: royalblue;
+}
+.img_1{
+	float: right;
+	opacity: 0.7;
+	border: 1px white solid;
+}
+img:hover{
+	transition: 1s;
+	opacity: 1;
+	box-shadow: 1px 1px 10px 1px white;
+}
+.Description_1{
+	width: 600px;
+	text-align: left;
+	text-indent: 4%;
+}
+#filler_bg_color{
+	background-color: black;
+	display: none;
+}
+.view_port{
+	background-color: black;
+	height: 25px;
+	width: 1000px;
+	opacity: 0.7;
+}

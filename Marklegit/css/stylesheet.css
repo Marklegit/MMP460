@@ -1,0 +1,198 @@
+body{
+	background-color: whitesmoke;
+	margin: -16px;
+}
+.Section-1{
+	height: 1500px;
+	width: 1000px;
+	margin: auto;
+	background-color: white;
+}
+#Home_button{
+	font-family: fantasy;
+	font-size: 30px;
+	text-decoration: none;
+	color: #3bc6ab;
+}
+#Home_button:hover{
+	color: black;
+	cursor: not-allowed;
+}
+@keyframes logo{
+	0% {background-color: red;}
+	50% {background-color: royalblue;}
+	100% {background-color: gold;}
+}
+.Navbar-1{
+	background-color: white;
+	text-align: center;
+}
+.Navbar-1 li{
+	display: inline-block;
+	margin: 10px;
+	padding: 10px;
+	border-left: 2px black solid;
+}
+.Navbar-1 li a{
+	text-decoration: none;
+	font-family: cursive;
+	font-size: 26px;
+	color: black;
+}
+.Navbar-1 li a:hover{
+	color: red;
+	border-bottom: 2px solid blue;
+}
+.github{
+	background-color: green;
+	border: 1px white dotted;
+}
+.linkedin{
+	background-color: cadetblue;
+	border: 1px white dotted;
+}
+.instagram{
+	background-color: plum;
+	border: 1px white dotted;
+}
+.twitter{
+	background-color: skyblue;
+	border: 1px white dotted;
+}
+.social_media{
+	position: relative;
+	margin-top: -60px;
+	text-align: right;
+}
+.social_media ul{
+	margin: 0;
+}
+.social_media ul li{
+	padding: 10px 10px;
+	display: inline-block;
+	border: 1px white solid;
+	box-shadow: 1px 1px 10px 1px;
+	animation-name: social, logo;
+	animation-duration: 3s;
+	animation-iteration-count: 1;
+	margin-right: 30px;
+}
+.social_media ul li:hover{
+	background-color: black;
+}
+@keyframes social{
+	0% {background-color: red;}
+	50% {background-color: royalblue;}
+	100% {background-color: gold;}
+}
+/*.social_media ul li:hover{
+	border: 1px white dotted;
+	background-color: red;
+}*/
+.social_media ul li a{
+	color: white;
+	font-family: monospace;
+	font-size: 16px;
+	text-decoration: none;
+}
+.social_media ul li a:hover{
+	color: gold;
+}
+h1{
+	text-align: center;
+	color: black;
+	font-family: helvetica-light;
+	position: relative;
+	animation-name: move;
+    animation-duration: 3s;
+}
+h2{
+	color: green;
+	padding-left: 10px;
+	border-left: 4px solid red;
+}
+h4{
+	font-size: 20px;
+	margin: 0;
+	color: gold;
+}
+@keyframes move {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+footer{
+	height: 100px;
+	width: 1000px;
+	background-color: #666666;
+	margin: auto;
+	border-radius: 12px;
+}
+footer p{
+	text-align: center;
+	font-size: 20px;
+	font-family: helvetica;
+	line-height: 100px;
+	padding: 0;
+	margin: 0;
+	color: white;
+}
+.clearfix_1{
+	overflow: auto;
+	padding: 20px;
+}
+.img_1{
+	float: right;
+	opacity: 0.7;
+	border: 1px white solid;
+	box-shadow: 1px 1px 10px 1px;
+	background-color: black;
+}
+img:hover{
+	transition: 1s;
+	opacity: 1;
+}
+.Description_1{
+	width: 20%;
+	text-align: left;
+}
+.view_port {
+  background-color: black;
+  height: 25px;
+  width: 1000px;
+  overflow: hidden;
+  margin: auto;
+  opacity: 0.7;
+}
+.cylon_eye {
+
+  background-image: linear-gradient(to right,
+      rgba(0, 0, 0, .9) 25%,
+      rgba(0, 0, 0, .1) 50%,
+      rgba(0, 0, 0, .9) 75%);
+  color: white;
+  height: 100%;
+  width: 40%;
+  margin-left: -500px;
+  -webkit-animation: 9s linear 0s 1 alternate move_eye;
+  animation: 9s linear 0s 1 alternate move_eye;
+  animation-iteration-count: 2;
+  animation-delay: 4s;
+}
+
+@-webkit-keyframes move_eye { 
+	from { margin-left: -20%; } 
+	to { margin-left: 100%; } 
+}
+@keyframes move_eye {
+	from { margin-left: -20%; } 
+	to { margin-left: 100%; }
+}
